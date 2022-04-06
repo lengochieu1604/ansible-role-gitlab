@@ -1,0 +1,10 @@
+- name: Install Jenkins
+  hosts: linux
+  vars_files:
+    - role-gitlab/vars/main.yml
+  become: true 
+  # gather_facts: false 
+  roles:
+    - role-gitlab
+    
+    
