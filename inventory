@@ -1,1 +1,1 @@
-linux ansible_host=20.24.73.91 ansible_connection=ssh ansible_user=al ansible_ssh_pass=Azure@123
+linux ansible_host= ansible_connection=ssh ansible_user= ansible_ssh_pass=
