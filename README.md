@@ -20,14 +20,14 @@
 
 ## Example Playbook
 ----------------
-  - name: Install Gitlab
-    hosts: linux
-    vars_files:
-      - role-gitlab/vars/main.yml
-    become: true 
-    # gather_facts: false 
-    roles:
-      - role-gitlab
+      - name: Install Gitlab
+        hosts: linux
+        vars_files:
+          - role-gitlab/vars/main.yml
+        become: true 
+        # gather_facts: false 
+        roles:
+          - role-gitlab
     
 ## License
 -------
