@@ -1,4 +1,4 @@
-- name: Install Jenkins
+- name: Install Gitlab
   hosts: linux
   vars_files:
     - role-gitlab/vars/main.yml
